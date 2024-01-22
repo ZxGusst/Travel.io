@@ -1,0 +1,403 @@
+* {
+  margin: 0px;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #070606;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #252525;
+  border-radius: 50px;
+}
+
+.background {
+  position: relative;
+  top: -200px;
+  width: 100%;
+  filter: brightness(90%);
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topo {
+  position: absolute;
+  width: 118.9%;
+  height: 50%;
+  left: -250px;
+  top: 0px;
+}
+
+.topo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logo {
+  position: relative;
+
+  width: 178px;
+  height: 178px;
+  left: -10px;
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.35));
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo h1 {
+  position: relative;
+  color: #ffffff;
+  margin-left: -10px;
+  margin-right: 50px;
+}
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: -60px;
+  left: 60px;
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.35));
+}
+.lista {
+  display: flex;
+  list-style: none;
+  position: relative;
+  left: 60px;
+  top: 3px;
+}
+.lista li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.lista li a:hover {
+  opacity: 0.7;
+}
+
+.lista li {
+  text-decoration: none;
+  letter-spacing: 2px;
+  margin-left: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+.search-box {
+  position: relative;
+  top: 0px;
+  left: 20px;
+}
+
+.search-box input[type="text"] {
+  width: 250px;
+  padding: 3px;
+  border-radius: 3px;
+  border: none;
+  background-color: #cccccc;
+
+  opacity: 50%;
+}
+
+.search-box button[type="submit"] {
+  border-radius: 3px;
+  border: none;
+  background-color: #1b727800;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.search-box ::placeholder {
+  color: #ffffff;
+}
+.Search-icon {
+  position: relative;
+  top: 5px;
+  width: 23px;
+  height: 23px;
+}
+
+.topo hr {
+  color: #ffffff;
+  position: relative;
+  top: -125px;
+  width: 1020px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  left: 190px;
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.35));
+}
+
+.conteudo-body {
+  position: relative;
+  top: 200px;
+  margin-bottom: 0px;
+}
+.body {
+  position: absolute;
+  width: 100%;
+  height: 1747px;
+  left: 0px;
+  top: 396px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+
+  background: #d9d9d9;
+}
+
+.conteudo-body h1 {
+  position: relative;
+  top: -666px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 70px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.conteudo-body h3 {
+  position: relative;
+  width: 974px;
+  height: 184px;
+
+  top: -627px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 57px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.titulo {
+  position: relative;
+  top: 280px;
+}
+
+.formulario {
+  position: relative;
+  margin: 0px;
+  top: -300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.formulario label {
+  display: block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30.2671px;
+  line-height: 60px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+textarea {
+  width: 620.93px;
+  height: 85.3px;
+  color: #000000;
+  background-color: #d9d9d9;
+  border: 3.66874px solid #000000;
+  border-radius: 2.75156px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-style: normal;
+
+  color: #000000;
+}
+
+.formulario ::placeholder {
+  position: relative;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.2671px;
+  left: 30px;
+
+  color: #000000;
+}
+
+.detalhes ::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.2671px;
+
+  color: #000000;
+}
+
+input[type="submit"] {
+  width: 70%;
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30.2671px;
+  line-height: 60px;
+  border: none;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+input[type="submit"]:hover {
+  background-color: #000000;
+  transform: scale(1.05);
+}
+
+.detalhes {
+  width: 620.93px;
+  height: 145.3px;
+}
+
+.detalhes::-webkit-scrollbar {
+  width: 0px;
+}
+
+.detalhes::-webkit-scrollbar-track {
+  background-color: #d9d9d9;
+}
+
+.detalhes::-webkit-scrollbar-thumb {
+  background-color: #d9d9d9;
+  border-radius: 50px;
+}
+
+.footer {
+  position: relative;
+  margin-top: 0px;
+  top: 1150px;
+  width: 84.6%;
+  height: 20%;
+  padding: 4px 101.3px;
+  background-color: #070606;
+  display: flex;
+  align-items: center;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+}
+.logo-footer h1 {
+  position: relative;
+  color: #ffffff;
+  margin-left: -10px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+.logo-footer {
+  position: relative;
+
+  width: 128px;
+  height: 128px;
+  left: 50px;
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.35));
+}
+
+.footer h3 {
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 15px;
+  position: relative;
+  left: -90px;
+  top: 45px;
+}
+
+.footer-right {
+  position: relative;
+  display: flex;
+  left: 500px;
+  top: 38px;
+}
+
+.instagram {
+  position: relative;
+  left: -50px;
+}
+
+.youtube {
+  position: relative;
+  left: -2px;
+}
+
+.facebook {
+  position: relative;
+  right: -22px;
+}
+
+.back-button {
+  position: relative;
+  top: -50px;
+  right: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.voltar {
+  position: relative;
+  right: 8px;
+}
+
+.back-button h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  transition: transform 1s;
+
+  color: #000000;
+}
+.back-button a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.back-button h1:hover {
+  transform: scale(1.05);
+}
